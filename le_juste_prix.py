@@ -3,6 +3,7 @@ from random import randint
 entier=randint(1,1000)
 
 print("Bienvenue dans l'émission intitulée : LE JUSTE PRIX")
+print("Ce jeu consiste à trouver un prix compris entre 0 et 1000")
 
 for nb_essais in range(1,11):
     print("\nIl vous reste",11-nb_essais, "essai(s)")
